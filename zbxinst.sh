@@ -1,3 +1,9 @@
+#!/bin/sh
+#
+#   CentOS 
+#       bash <(curl https://raw.githubusercontent.comoexo/telephony/zbxinst.sh)
+
+
 wget http://repo.zabbix.com/zabbix/2.4/rhel/5/i386/zabbix-agent-2.4.7-1.el5.i386.rpm
 wget http://repo.zabbix.com/zabbix/2.4/rhel/5/i386/zabbix-2.4.7-1.el5.i386.rpm
 rpm -ihv zabbix-2.4.7-1.el5.i386.rpm
